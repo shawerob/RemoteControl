@@ -2,9 +2,9 @@ input.onButtonPressed(Button.A, function () {
     radio.sendNumber(0)
 })
 input.onButtonPressed(Button.AB, function () {
-    radio.sendString("הי")
+    radio.sendNumber(2)
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendValue("name", 0)
+    radio.sendNumber(1)
 })
 radio.setGroup(200)
